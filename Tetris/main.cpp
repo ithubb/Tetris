@@ -7,9 +7,22 @@
 //
 
 #include <iostream>
+#include <stdlib.h>
+#include <unistd.h>
+#include "screen.h"
+#include "def_var.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+void null_Array(){
+    for (i = 0; i < H; i++) {
+        for (m = 0; m < W; m++) {
+            screenHW[i][m] = 0;
+        }
+    }
+}
+
+int main(){
+    null_Array();
+    screen();
+    
     return 0;
 }

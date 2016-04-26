@@ -24,7 +24,10 @@
 
 /* Begin PBXFileReference section */
 		F1105B171CCFC9BE00604A95 /* Tetris */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tetris; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1105B1A1CCFC9BE00604A95 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F1105B1A1CCFC9BE00604A95 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; usesTabs = 0; };
+		F1105B211CCFC9D700604A95 /* screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = screen.h; sourceTree = "<group>"; };
+		F1105B231CCFCE0F00604A95 /* def_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = def_var.h; sourceTree = "<group>"; };
+		F199AE341CCFFF020084A8FD /* Description_Ideas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Description_Ideas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				F1105B1A1CCFC9BE00604A95 /* main.cpp */,
+				F1105B211CCFC9D700604A95 /* screen.h */,
+				F1105B231CCFCE0F00604A95 /* def_var.h */,
+				F199AE341CCFFF020084A8FD /* Description_Ideas */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 				F1105B201CCFC9BE00604A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
