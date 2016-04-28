@@ -12,25 +12,19 @@
 #include "def_var.h"
 using namespace std;
 
-int screen(){
-    
-    
-    for (i = 0; i < H; i++) {
-        for (m = 0; m < W; m++) {
-            if ((screenHW[i][m] = 0)) {
-                line[m] = ' ';
-                
-            }else if((screenHW[i][m] = 1)){
-                line[m] = '!';
+void screen(){
+    cout << endl;
+    for(i = 0;i < H;i++){
+        for(m =0;m < W;m++){
+            if(screenHW[i][m] == 0){
+                line = 35;
+            }else if(screenHW[i][m] == 1){
+                line = 32;
             }
-            
-            cout << (char) line[m];
+            cout <<(char) line;
         }
-        
         cout << endl;
     }
-    
-    return 0;
 }
 
 #endif

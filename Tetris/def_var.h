@@ -18,13 +18,15 @@
 #define H 25                    //Height of the Playground
 #define W 21                    //With of the Playground
 bool screenHW[H][W];            //Playground
-char line[W];
-unsigned char i , m;            //counter Variables
+char line;
+unsigned char i , m ,n ,o ,p;            //counter Variables
+unsigned char screenPos = W / 2;
 
 
 /*****************************************************/
     //  Function Prototypes                               /
 /*****************************************************/
-int screen();
-void null_Array();
+void screen();
+void blockFall();
+int game_lostf();
 #endif

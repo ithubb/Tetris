@@ -28,6 +28,8 @@
 		F1105B211CCFC9D700604A95 /* screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = screen.h; sourceTree = "<group>"; };
 		F1105B231CCFCE0F00604A95 /* def_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = def_var.h; sourceTree = "<group>"; };
 		F199AE341CCFFF020084A8FD /* Description_Ideas */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Description_Ideas; sourceTree = "<group>"; };
+		F1EC39EB1CD29F6100AC741B /* blockFall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockFall.h; sourceTree = "<group>"; };
+		F1EC39EC1CD2A09000AC741B /* gamelost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gamelost.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,8 @@
 				F1105B211CCFC9D700604A95 /* screen.h */,
 				F1105B231CCFCE0F00604A95 /* def_var.h */,
 				F199AE341CCFFF020084A8FD /* Description_Ideas */,
+				F1EC39EB1CD29F6100AC741B /* blockFall.h */,
+				F1EC39EC1CD2A09000AC741B /* gamelost.h */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";

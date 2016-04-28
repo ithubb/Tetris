@@ -7,22 +7,18 @@
 //
 
 #include <iostream>
-#include <stdlib.h>
 #include <unistd.h>
-#include "screen.h"
 #include "def_var.h"
+#include "screen.h"
+#include "blockFall.h"
+#include "gamelost.h"
 
-void null_Array(){
-    for (i = 0; i < H; i++) {
-        for (m = 0; m < W; m++) {
-            screenHW[i][m] = 0;
-        }
-    }
-}
 
 int main(){
-    null_Array();
-    screen();
+    
+    while(!game_lostf()){
+        blockFall();
+    }
     
     return 0;
 }
