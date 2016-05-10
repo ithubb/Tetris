@@ -26,7 +26,7 @@ void screen(){
         }
         cout << endl;
     }
-    sleep(1);
+    sleep(delay);
 }
 
 #endif

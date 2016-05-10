@@ -8,12 +8,18 @@
 
 #ifndef blockFall_h
 #define blockFall_h
+#include <stdlib.h>
+
 #include "def_var.h"
 
 void blockFall(){
+    
+    
     for(n = 0;  ((n < H) &&(!screenHW[n][screenPos])); n++){
+        
         screenHW[n][screenPos] = 1;
         screenHW[n - 1][screenPos] = 0;
+        mk_move();
         screen();
     }
 }
