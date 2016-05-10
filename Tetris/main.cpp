@@ -18,7 +18,7 @@
 
 
 int main(){
-    screenHW[12][0] = 1;
+ /*   screenHW[12][0] = 1;
     screenHW[12][1] = 1;
     screenHW[12][2] = 1;
     screenHW[12][3] = 1;
@@ -46,13 +46,13 @@ int main(){
     screenHW[9][1] = 1;
     screenHW[9][14] = 1;
     screenHW[10][15] = 1;
-    screenHW[10][16] = 1;
+    screenHW[10][16] = 1;*/
     
     
     while( !game_lostf() ){
         screenPos = W/2;
         blockFall();
-        delay =1;
+        delay = 1;
         rem_line();
         screen();
     }
