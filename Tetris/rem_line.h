@@ -17,11 +17,15 @@ void rem_line(){
                 for (s = 0; s < W; s++) {
                     screenHW[q][s] = 0;
                 }
-                for (t = q; t <= 0; t--) {
+                for (t = q; t; t--) {
                     for (u = 0; u < W; u++) {
                         screenHW[t][u] = screenHW[t-1][u];
                     }
+                    for (u = 0; u < W; u++) {
+                        screenHW[q][u] = 0;
+                    }
                 }
+                screen();
             }
         }
     }

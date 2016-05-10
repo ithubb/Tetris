@@ -17,7 +17,7 @@ int mk_move(){
         mv_key = getkey();
         
         switch (mv_key) {
-            case 'D':
+            case 'w':
                 screenHW[n][screenPos] = 0;
                 screenPos--;
                 screenHW[n][screenPos] = 1;
@@ -26,7 +26,7 @@ int mk_move(){
                 delay = 1;
                 break;
                 
-            case 'C':
+            case 'e':
                 screenHW[n][screenPos] = 0;
                 screenPos++;
                 screenHW[n][screenPos] = 1;
