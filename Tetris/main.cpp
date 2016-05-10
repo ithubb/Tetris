@@ -8,16 +8,25 @@
 
 #include <iostream>
 #include <unistd.h>
+
+
 #include "def_var.h"
 #include "screen.h"
 #include "blockFall.h"
 #include "gamelost.h"
+#include "rem_line.h"
 
 
 int main(){
+    glfwSetKeyCallback(window, key_callback);
     
-    while(!game_lostf()){
+    
+    
+    
+    while( !game_lostf() ){
+        
         blockFall();
+        rem_line();
     }
     
     return 0;

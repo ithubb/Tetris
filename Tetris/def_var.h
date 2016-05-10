@@ -29,4 +29,5 @@ unsigned char screenPos = W / 2;
 void screen();
 void blockFall();
 int game_lostf();
+void rem_line();
 #endif

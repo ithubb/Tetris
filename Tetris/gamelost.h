@@ -13,7 +13,7 @@
 int game_lostf(){
     for(o = 0;o < W;o++){
         if(screenHW[0][o]){
-            p = 1;;
+            p = 1;
             o = H;
             cout << "game lost" << endl;
         }else if(!screenHW[0][o]){

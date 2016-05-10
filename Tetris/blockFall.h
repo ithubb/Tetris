@@ -15,7 +15,6 @@ void blockFall(){
         screenHW[n][screenPos] = 1;
         screenHW[n - 1][screenPos] = 0;
         screen();
-            //usleep(500000);
     }
 }
 

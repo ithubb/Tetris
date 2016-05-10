@@ -9,6 +9,7 @@
 #ifndef screen_h
 #define screen_h
 #include <iostream>
+#include <unistd.h>
 #include "def_var.h"
 using namespace std;
 
@@ -25,6 +26,7 @@ void screen(){
         }
         cout << endl;
     }
+    sleep(1);
 }
 
 #endif
