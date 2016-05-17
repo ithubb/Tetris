@@ -13,7 +13,7 @@
 
 int mk_move(){
     while (io_charavail(0)) {
-        
+        delay = 0;
         mv_key = getkey();
         
         switch (mv_key) {
@@ -51,6 +51,7 @@ int mk_move(){
                 
                     }
     }
+    
     return 0;
 }
 

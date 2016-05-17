@@ -15,6 +15,7 @@ using namespace std;
 
 void screen(){
     cout << endl;
+    
     for(i = 0;i < H;i++){
         for(m =0;m < W;m++){
             if(screenHW[i][m] == 0){
