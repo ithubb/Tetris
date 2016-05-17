@@ -17,11 +17,11 @@ void screen(){
     cout << endl;
     for(i = 0;i < H;i++){
         for(m =0;m < W;m++){
-            if(screenHW[i][m] == 0){
-                line = 35;
-            }else if(screenHW[i][m] == 1){
-                line = 32;
-            }
+                if(screenBuffer[i][m] == 0){
+                    line = 35;
+                }else if(screenBuffer[i][m] == 1){
+                    line = 32;
+                }
             cout <<(char) line;
         }
         cout << endl;

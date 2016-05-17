@@ -50,7 +50,7 @@ int main(){
     
     
     while( !game_lostf() ){
-        screenPos = W/2;
+        Block_pos_y = W/2;
         blockFall();
         delay = 1;
         rem_line();

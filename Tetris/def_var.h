@@ -20,9 +20,9 @@
 #define H 25                    //Height of the Playground
 #define W 21                    //With of the Playground
 bool screenHW[H][W];            //Playground
+bool screenBuffer[H][W];        //First Output Buffer
 char line;
 unsigned char i , m ,n ,o ,p ,q ,r ,s ,t ,u;//counter Variables
-unsigned char screenPos = W / 2;
 char mv_key;                    //key for Block Movement
 int delay = 1;
 bool Block_Array[5][5];
@@ -30,6 +30,7 @@ int Block_pos_x;
 int Block_pos_y;
 int rn = 0;                     //Random number 0 - 7
 int rota = 0;                   //rotation of Blocks
+int collission = 0;
 
 
 /*****************************************************/
