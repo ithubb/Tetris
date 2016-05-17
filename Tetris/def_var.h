@@ -36,7 +36,7 @@ int collission = 0;
 /*****************************************************/
 //  Function Prototypes                               /
 /*****************************************************/
-void screen();
+void frame_out();
 void blockFall();
 int game_lostf();
 void rem_line();

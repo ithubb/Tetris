@@ -14,24 +14,24 @@
 int mk_move(){
     while (io_charavail(0)) {
         
-        mv_key = getkey();
+        mv_key = fgetc(stdin);
         
         switch (mv_key) {
             case 'w':
-                screenHW[n][screenPos] = 0;
-                screenPos--;
-                screenHW[n][screenPos] = 1;
+                screenHW[n][Block_pos_y] = 0;
+                Block_pos_y--;
+                screenHW[n][Block_pos_y] = 1;
                 delay = 0;
-                screen();
+                frame_out();
                 delay = 1;
                 break;
                 
             case 'e':
-                screenHW[n][screenPos] = 0;
-                screenPos++;
-                screenHW[n][screenPos] = 1;
+                screenHW[n][Block_pos_y] = 0;
+                Block_pos_y++;
+                screenHW[n][Block_pos_y] = 1;
                 delay = 0;
-                screen();
+                frame_out();
                 delay = 1;
                 break;
                 

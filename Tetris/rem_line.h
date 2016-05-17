@@ -25,7 +25,7 @@ void rem_line(){
                         screenHW[q][u] = 0;
                     }
                 }
-                screen();
+                frame_out();
             }
         }
     }
