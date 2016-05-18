@@ -27,11 +27,12 @@
 		F1105B1A1CCFC9BE00604A95 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; usesTabs = 0; };
 		F1105B211CCFC9D700604A95 /* Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frame.h; sourceTree = "<group>"; };
 		F1105B231CCFCE0F00604A95 /* def_var.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = def_var.h; sourceTree = "<group>"; };
+		F14E42581CECFE4700E22BF0 /* spawn_block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spawn_block.h; sourceTree = "<group>"; };
 		F153CF9E1CE07E4A002A390F /* rem_line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rem_line.h; sourceTree = "<group>"; };
 		F17C01C11CE1CB5600874CBD /* Key_inp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Key_inp.h; sourceTree = "<group>"; };
 		F17C01C31CE1CFC000874CBD /* conio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conio.h; sourceTree = "<group>"; };
 		F17C01C41CE1E2DC00874CBD /* Block_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block_struct.h; sourceTree = "<group>"; };
-		F1EC39EB1CD29F6100AC741B /* blockFall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockFall.h; sourceTree = "<group>"; };
+		F1EC39EB1CD29F6100AC741B /* blockmove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockmove.h; sourceTree = "<group>"; };
 		F1EC39EC1CD2A09000AC741B /* gamelost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gamelost.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,10 +71,11 @@
 				F153CF9E1CE07E4A002A390F /* rem_line.h */,
 				F1105B211CCFC9D700604A95 /* Frame.h */,
 				F1105B231CCFCE0F00604A95 /* def_var.h */,
-				F1EC39EB1CD29F6100AC741B /* blockFall.h */,
+				F1EC39EB1CD29F6100AC741B /* blockmove.h */,
 				F17C01C11CE1CB5600874CBD /* Key_inp.h */,
 				F17C01C31CE1CFC000874CBD /* conio.h */,
 				F17C01C41CE1E2DC00874CBD /* Block_struct.h */,
+				F14E42581CECFE4700E22BF0 /* spawn_block.h */,
 			);
 			path = Tetris;
 			sourceTree = "<group>";

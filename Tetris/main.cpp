@@ -16,10 +16,11 @@
 
 #include "def_var.h"
 #include "Frame.h"
-#include "blockFall.h"
+#include "blockmove.h"
 #include "gamelost.h"
 #include "rem_line.h"
 #include "Key_inp.h"
+#include "spawn_block.h"
 
 
 int main(){
@@ -28,10 +29,6 @@ int main(){
     new_tio=old_tio;
     new_tio.c_lflag &=(~ICANON & ~ECHO);
     tcsetattr(STDIN_FILENO,TCSANOW,&new_tio);   //Disabel Buffered Input
-        //
-        //fgetch(stdin)
-        //
-    
  /*   screenBuffer[12][0] = 1;
     screenBuffer[12][1] = 1;
     screenBuffer[12][2] = 1;
@@ -62,12 +59,13 @@ int main(){
     screenBuffer[10][15] = 1;
     screenBuffer[10][16] = 1;*/
     
-    
     while( !game_lostf() ){
-        Block_pos_y = W/2;
-            //blockFall();
-        delay = 1;
-        rem_line();
+        spawn_block();
+        while (!coll) {
+            blockFall();
+            frame_out();
+        }
+        coll = 0;
         frame_out();
     }
     

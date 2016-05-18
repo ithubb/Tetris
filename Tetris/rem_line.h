@@ -25,6 +25,7 @@ void rem_line(){
                         screenHW[q][u] = 0;
                     }
                 }
+                score ++;
                 frame_out();
             }
         }

@@ -24,6 +24,8 @@ void frame_out(){
                 }
             cout <<(char) line;
         }
+        if (i == 2)cout << "\tSCORE";
+        if (i == 3)cout << "\t" << score;
         cout << endl;
     }
     sleep(delay);
