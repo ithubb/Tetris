@@ -22,7 +22,11 @@
 bool screenHW[H][W];            //Playground
 bool screenBuffer[H][W];        //First Output Buffer
 char line;
-unsigned char i , m ,n ,o ,p ,q ,r ,s ,t ,u;//counter Variables
+unsigned char i, m;             //Frame
+unsigned char q, r, s, t ,u;    //rem_line
+unsigned char o, p;             //gamelost
+unsigned char n;                //Key inp
+  signed char v, w;
 char mv_key;                    //key for Block Movement
 int delay = 1;
 bool Block_Array[5][5];

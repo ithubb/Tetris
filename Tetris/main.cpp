@@ -65,7 +65,7 @@ int main(){
     
     while( !game_lostf() ){
         Block_pos_y = W/2;
-        blockFall();
+            //blockFall();
         delay = 1;
         rem_line();
         frame_out();
